@@ -1,5 +1,6 @@
 .Header {
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid ghostwhite;
@@ -23,4 +24,12 @@ h1 {
   font-size: 40px;
   font-weight: bolder;
   margin: 0;
+}
+
+.header-layout {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
 }

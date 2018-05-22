@@ -3,6 +3,7 @@ import Story from './Story';
 import './Stories.css';
 
 const Stories = (props) => {
+  console.log(props)
   return (
     <div className='Stories'>
       <div className='  stories-header'>
@@ -15,7 +16,7 @@ const Stories = (props) => {
             console.log(story);
             // INSTEAD OF returning the div below, return a Story component
             // Be sure to pass down the correct props!
-            return (<div>{story.title}</div>)
+            return (<Story story={story} />);
           })
         }
       </div>
