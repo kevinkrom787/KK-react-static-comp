@@ -14,6 +14,7 @@ npm start
 
 Once the server is running, you can visit:
 
+
 * `http://localhost:8080/`
 
 --------------------------------
@@ -48,6 +49,27 @@ The React static comp is designed to get you comfortable with basic React princi
 ### Cloning Medium
 ![static comp design](https://i.imgur.com/8eQr70q.png)
 You can gather ideas for the responsive design based on [Medium's website](https://web.archive.org/web/20170911122145/https://medium.com/).
+=======
+* `http://localhost:8080/webpack-dev-server/` to run your application.
+* `http://localhost:8080/webpack-dev-server/test.html` to run your test suite in the browser.
+
+To build the static files:
+
+```js
+npm run build
+```
+
+
+To run tests in Node:
+
+```js
+npm test
+```
+
+#project overview
+
+- recreate the Medium website in react. 
+
 
 ### Static Comp Learning Goals
 - Begin to understand rendering in React
